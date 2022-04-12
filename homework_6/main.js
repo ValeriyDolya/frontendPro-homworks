@@ -10,7 +10,7 @@ function inputNumber() {
     function checkIfNumberPrime() {
         for (let i = 2; i < number; i++) {
             if (number % i === 0) {
-                return ("composit");
+                return ("composite");
             }
         }
         return ("prime");
