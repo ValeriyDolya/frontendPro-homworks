@@ -1,5 +1,5 @@
 
-function carcreator() {
+function carCreator() {
     const car = {};
     car.model = prompt("Input Manufacturer of car");
     car.name = prompt("Input model name");
@@ -14,5 +14,5 @@ function carcreator() {
 
 
 const carArray = [];
-carArray.push(carcreator());
+carArray.push(carCreator());
 console.log(carArray);
