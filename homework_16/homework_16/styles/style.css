@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    height: 100%;
+}
+
+
+.wrapper {
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+.context {
+    width: 80%;
+    margin: 10px auto;
+    height: 640px;
+    background: rgb(244, 243, 240);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.textArea {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background: rgb(207, 201, 201);
+    border-radius: 8px;
+}
+
+.buttonAdd {
+    border-radius: 8px;
+    border: none;
+}
+
+.text {
+    border-radius: 8px;
+    border: none;
+    margin-right: 5px;
+    background-color: rgb(235, 243, 243);
+    width: 700px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-bottom: solid 2px ;
+}
+
+.itemText {
+    font-weight: 700;
+}
+
+
+.itemCheckBox:checked + p {
+    text-decoration: line-through;
+}
+
+.done {
+    border: 2px solid black;
+    
+}
